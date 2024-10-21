@@ -1,0 +1,349 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.appa"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:9:5-67
+15-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:10:5-79
+16-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:11:5-77
+17-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:11:22-74
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:12:5-81
+18-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+19-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:13:5-75
+19-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:13:22-72
+20    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+20-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:14:5-75
+20-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:14:22-72
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:15:5-80
+21-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:15:22-77
+22    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+22-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:16:5-18:47
+22-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:17:9-57
+23    <uses-permission
+23-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:19:5-21:38
+24        android:name="android.permission.READ_EXTERNAL_STORAGE"
+24-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:20:9-64
+25        android:maxSdkVersion="32" />
+25-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:21:9-35
+26    <uses-permission
+26-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:22:5-25:40
+27        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+27-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:23:9-65
+28        android:maxSdkVersion="32" />
+28-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:24:9-35
+29
+30    <permission
+30-->[androidx.core:core:1.12.0] /Users/macm2/.gradle/caches/transforms-3/bbf4399b4f25c147c8e439855280b0ae/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.appa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.12.0] /Users/macm2/.gradle/caches/transforms-3/bbf4399b4f25c147c8e439855280b0ae/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.12.0] /Users/macm2/.gradle/caches/transforms-3/bbf4399b4f25c147c8e439855280b0ae/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.appa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.12.0] /Users/macm2/.gradle/caches/transforms-3/bbf4399b4f25c147c8e439855280b0ae/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.12.0] /Users/macm2/.gradle/caches/transforms-3/bbf4399b4f25c147c8e439855280b0ae/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:27:5-125:19
+37        android:name="com.example.appa.App"
+37-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:28:9-28
+38        android:allowBackup="false"
+38-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:29:9-36
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.12.0] /Users/macm2/.gradle/caches/transforms-3/bbf4399b4f25c147c8e439855280b0ae/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+40        android:dataExtractionRules="@xml/data_extraction_rules"
+40-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:30:9-65
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:fullBackupContent="@xml/backup_rules"
+43-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:31:9-54
+44        android:icon="@drawable/im_ic_app"
+44-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:32:9-43
+45        android:label="@string/app_name"
+45-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:33:9-41
+46        android:requestLegacyExternalStorage="true"
+46-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:34:9-52
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:35:9-54
+48        android:supportsRtl="true"
+48-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:36:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.AppA" >
+50-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:37:9-42
+51        <activity
+51-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:38:9-40:40
+52            android:name="com.example.appa.ui.activity.main.ringtones.ringtonemore.video.VideoAct"
+52-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:39:13-83
+53            android:exported="false" />
+53-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:40:13-37
+54        <activity
+54-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:41:9-43:40
+55            android:name="com.example.appa.ui.activity.main.ringtones.ringtonemore.record.RecordAct"
+55-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:42:13-85
+56            android:exported="false" />
+56-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:43:13-37
+57        <activity
+57-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:44:9-46:40
+58            android:name="com.example.appa.ui.dialog.DialogOptionCategory"
+58-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:45:13-59
+59            android:exported="false" />
+59-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:46:13-37
+60        <activity
+60-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:47:9-49:40
+61            android:name="com.example.appa.ui.activity.main.ringtones.ringtonemore.audio.AudioAct"
+61-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:48:13-83
+62            android:exported="false" />
+62-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:49:13-37
+63        <activity
+63-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:50:9-52:40
+64            android:name="com.example.appa.ui.activity.main.mysound.edit.EditMySoundAct"
+64-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:51:13-73
+65            android:exported="false" />
+65-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:52:13-37
+66        <activity
+66-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:53:9-55:40
+67            android:name="com.example.appa.ui.dialog.DialogChangeNameMySound"
+67-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:54:13-62
+68            android:exported="false" />
+68-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:55:13-37
+69        <activity
+69-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:56:9-58:40
+70            android:name="com.example.appa.ui.dialog.DialogOptionMySound"
+70-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:57:13-58
+71            android:exported="false" />
+71-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:58:13-37
+72        <activity
+72-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:59:9-61:40
+73            android:name="com.example.appa.ui.dialog.DialogOptionSearch"
+73-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:60:13-57
+74            android:exported="false" />
+74-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:61:13-37
+75        <activity
+75-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:62:9-64:40
+76            android:name="com.example.appa.ui.guideline.GuideLineAct"
+76-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:63:13-54
+77            android:exported="false" />
+77-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:64:13-37
+78        <activity
+78-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:65:9-67:40
+79            android:name="com.example.appa.ui.activity.main.ringtones.category.CategoryAct"
+79-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:66:13-76
+80            android:exported="false" />
+80-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:67:13-37
+81        <activity
+81-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:68:9-70:40
+82            android:name="com.example.appa.ui.activity.main.search.SearchAct"
+82-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:69:13-62
+83            android:exported="false" />
+83-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:70:13-37
+84        <activity
+84-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:71:9-73:40
+85            android:name="com.example.appa.ui.activity.main.ringtones.recent.RecentAct"
+85-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:72:13-72
+86            android:exported="false" />
+86-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:73:13-37
+87        <activity
+87-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:74:9-76:40
+88            android:name="com.example.appa.ui.dialog.DialogOptionRecent"
+88-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:75:13-57
+89            android:exported="false" />
+89-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:76:13-37
+90        <activity
+90-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:77:9-79:40
+91            android:name="com.example.appa.ui.dialog.DialogLoading"
+91-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:78:13-52
+92            android:exported="false" />
+92-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:79:13-37
+93        <activity
+93-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:80:9-82:40
+94            android:name="com.example.appa.ui.activity.main.setting.SettingFragment"
+94-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:81:13-69
+95            android:exported="false" />
+95-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:82:13-37
+96        <activity
+96-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:83:9-85:40
+97            android:name="com.example.appa.ui.activity.main.mysound.MySoundFragment"
+97-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:84:13-69
+98            android:exported="false" />
+98-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:85:13-37
+99        <activity
+99-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:86:9-88:40
+100            android:name="com.example.appa.ui.activity.main.favorite.FavoriteFragment"
+100-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:87:13-71
+101            android:exported="false" />
+101-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:88:13-37
+102        <activity
+102-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:89:9-91:40
+103            android:name="com.example.appa.ui.activity.main.ringtones.RingtonesFragment"
+103-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:90:13-73
+104            android:exported="false" />
+104-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:91:13-37
+105        <activity
+105-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:92:9-94:40
+106            android:name="com.example.appa.ui.dialog.DialogDeniedWriteSetting"
+106-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:93:13-63
+107            android:exported="false" />
+107-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:94:13-37
+108        <activity
+108-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:95:9-97:40
+109            android:name="com.example.appa.ui.dialog.DialogDeniedMediaAudio"
+109-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:96:13-61
+110            android:exported="false" />
+110-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:97:13-37
+111        <activity
+111-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:98:9-100:40
+112            android:name="com.example.appa.ui.dialog.DialogDeniedMediaVideo"
+112-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:99:13-61
+113            android:exported="false" />
+113-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:100:13-37
+114        <activity
+114-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:101:9-103:40
+115            android:name="com.example.appa.ui.dialog.DialogDeniedExternalStorage"
+115-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:102:13-66
+116            android:exported="false" />
+116-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:103:13-37
+117        <activity
+117-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:104:9-106:40
+118            android:name="com.example.appa.ui.activity.permission.PermissionAct"
+118-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:105:13-65
+119            android:exported="false" />
+119-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:106:13-37
+120        <activity
+120-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:107:9-109:40
+121            android:name="com.example.appa.ui.activity.intro.IntroAct"
+121-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:108:13-55
+122            android:exported="false" />
+122-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:109:13-37
+123        <activity
+123-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:110:9-112:40
+124            android:name="com.example.appa.ui.activity.multilang.MultiLangAct"
+124-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:111:13-63
+125            android:exported="false" />
+125-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:112:13-37
+126        <activity
+126-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:113:9-115:40
+127            android:name="com.example.appa.ui.activity.main.MainActivity"
+127-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:114:13-58
+128            android:exported="false" />
+128-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:115:13-37
+129        <activity
+129-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:116:9-124:20
+130            android:name="com.example.appa.ui.activity.splash.SplashActivity"
+130-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:117:13-62
+131            android:exported="true" >
+131-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:118:13-36
+132            <intent-filter>
+132-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:119:13-123:29
+133                <action android:name="android.intent.action.MAIN" />
+133-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:120:17-69
+133-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:120:25-66
+134
+135                <category android:name="android.intent.category.LAUNCHER" />
+135-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:122:17-77
+135-->/Users/macm2/Documents/Ringtone-App/app/src/main/AndroidManifest.xml:122:27-74
+136            </intent-filter>
+137        </activity>
+138        <activity
+138-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/macm2/.gradle/caches/transforms-3/f11253469f599724e32c61be2e3dcff5/transformed/ui-tooling-1.4.0/AndroidManifest.xml:23:9-25:39
+139            android:name="androidx.compose.ui.tooling.PreviewActivity"
+139-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/macm2/.gradle/caches/transforms-3/f11253469f599724e32c61be2e3dcff5/transformed/ui-tooling-1.4.0/AndroidManifest.xml:24:13-71
+140            android:exported="true" />
+140-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/macm2/.gradle/caches/transforms-3/f11253469f599724e32c61be2e3dcff5/transformed/ui-tooling-1.4.0/AndroidManifest.xml:25:13-36
+141
+142        <provider
+142-->[androidx.emoji2:emoji2:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6f6b386f48037f5d57c0fb81e366cfa8/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+143            android:name="androidx.startup.InitializationProvider"
+143-->[androidx.emoji2:emoji2:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6f6b386f48037f5d57c0fb81e366cfa8/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+144            android:authorities="com.example.appa.androidx-startup"
+144-->[androidx.emoji2:emoji2:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6f6b386f48037f5d57c0fb81e366cfa8/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+145            android:exported="false" >
+145-->[androidx.emoji2:emoji2:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6f6b386f48037f5d57c0fb81e366cfa8/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+146            <meta-data
+146-->[androidx.emoji2:emoji2:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6f6b386f48037f5d57c0fb81e366cfa8/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+147                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+147-->[androidx.emoji2:emoji2:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6f6b386f48037f5d57c0fb81e366cfa8/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+148                android:value="androidx.startup" />
+148-->[androidx.emoji2:emoji2:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6f6b386f48037f5d57c0fb81e366cfa8/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+149            <meta-data
+149-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/macm2/.gradle/caches/transforms-3/bb1d41c26aa788b71c64d24534907cd7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+150                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+150-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/macm2/.gradle/caches/transforms-3/bb1d41c26aa788b71c64d24534907cd7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+151                android:value="androidx.startup" />
+151-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/macm2/.gradle/caches/transforms-3/bb1d41c26aa788b71c64d24534907cd7/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+152            <meta-data
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+153                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+154                android:value="androidx.startup" />
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+155        </provider>
+156
+157        <service
+157-->[androidx.room:room-runtime:2.6.1] /Users/macm2/.gradle/caches/transforms-3/72a1ed2352218959c280298139f4e027/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+158            android:name="androidx.room.MultiInstanceInvalidationService"
+158-->[androidx.room:room-runtime:2.6.1] /Users/macm2/.gradle/caches/transforms-3/72a1ed2352218959c280298139f4e027/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+159            android:directBootAware="true"
+159-->[androidx.room:room-runtime:2.6.1] /Users/macm2/.gradle/caches/transforms-3/72a1ed2352218959c280298139f4e027/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+160            android:exported="false" />
+160-->[androidx.room:room-runtime:2.6.1] /Users/macm2/.gradle/caches/transforms-3/72a1ed2352218959c280298139f4e027/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+161
+162        <receiver
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+163            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+164            android:directBootAware="false"
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+165            android:enabled="true"
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+166            android:exported="true"
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+167            android:permission="android.permission.DUMP" >
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+168            <intent-filter>
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+169                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+170            </intent-filter>
+171            <intent-filter>
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+172                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+173            </intent-filter>
+174            <intent-filter>
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+175                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+176            </intent-filter>
+177            <intent-filter>
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+178                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/macm2/.gradle/caches/transforms-3/6c4c9695a54a5f3935fe9fdce4885a22/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+179            </intent-filter>
+180        </receiver>
+181    </application>
+182
+183</manifest>

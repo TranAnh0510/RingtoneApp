@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/im_background" />
+
+    <TextView
+        android:id="@+id/tvPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/signika_bold"
+        android:gravity="start|center_vertical"
+        android:includeFontPadding="false"
+        android:text="@string/permission"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.appa.ui.customview.RippleCornerTextView
+        android:id="@+id/tvGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:fontFamily="@font/signika_bold"
+        android:foreground="?selectableItemBackground"
+        android:includeFontPadding="false"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10dp"
+        android:text="@string/go"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:backgroundColorView="#00FFFFFF"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/tvPermission"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPermission" />
+
+    <com.example.appa.ui.customview.RippleCornerTextView
+        android:id="@+id/tvSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:fontFamily="@font/signika_bold"
+        android:foreground="?selectableItemBackground"
+        android:includeFontPadding="false"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10dp"
+        android:text="@string/skip"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:backgroundColorView="#00FFFFFF"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/tvPermission"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPermission" />
+
+    <ImageView
+        android:id="@+id/imPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/img_permission"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPermission" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="22dp"
+        android:fontFamily="@font/signika_light"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/permission_content"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/imPermission" />
+
+    <TextView
+        android:id="@+id/tvWriteSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:drawablePadding="12dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/signika_semi_bold"
+        android:foreground="?selectableItemBackground"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:background="@drawable/bg_permission_setting"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:text="@string/write_setting"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:backgroundColorView="#00FFFFFF"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:drawableRightCompat="@drawable/ic_switch_on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvContent" />
+
+    <com.example.appa.ui.customview.RippleCornerTextView
+        android:id="@+id/tvWriteStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:drawablePadding="15dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/signika_semi_bold"
+        android:foreground="?selectableItemBackground"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:text="@string/write_external_storage"
+        android:background="@drawable/bg_permission_video"
+        android:textColor="#F6F8F8"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:backgroundColorView="#00FFFFFF"
+        app:cornerRadius="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:drawableRightCompat="@drawable/ic_switch_on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvWriteSetting" />
+
+    <com.example.appa.ui.customview.RippleCornerTextView
+        android:id="@+id/tvMediaAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:ellipsize="end"
+        android:background="@drawable/bg_permission_audio"
+        android:fontFamily="@font/signika_semi_bold"
+        android:foreground="?selectableItemBackground"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:text="@string/write_media_audio"
+        android:textColor="#F6F8F8"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:backgroundColorView="#00FFFFFF"
+        app:cornerRadius="8dp"
+        app:drawableRightCompat="@drawable/ic_switch_on"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvWriteSetting" />
+
+    <com.example.appa.ui.customview.RippleCornerTextView
+        android:id="@+id/tvMediaVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:drawablePadding="15dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/signika_semi_bold"
+        android:foreground="?selectableItemBackground"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:background="@drawable/bg_permission_video"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:text="@string/write_media_video"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:backgroundColorView="#00FFFFFF"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cornerRadius="8dp"
+        app:drawableRightCompat="@drawable/ic_switch_on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvMediaAudio" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

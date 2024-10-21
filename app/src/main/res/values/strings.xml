@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Ringtone App</string>
+    <string name="ringtone_music">Ringtone Music</string>
+    <string name="this_action_can_contain_ads">This action can contain ads</string>
+    <string name="next">Next</string>
+    <string name="get_start">Get Start</string>
+
+    //Intro
+    <string name="title_intro_1">Ringtones Songs</string>
+    <string name="title_intro_2">Ringtones Songs</string>
+    <string name="title_intro_3">Ringtones Songs</string>
+    <string name="content_intro_1">With Ringtones, music becomes more refined in tone</string>
+    <string name="content_intro_2">Create personal ringtones from the music you love</string>
+    <string name="content_intro_3">Easily cut, edit, and customize to create special ringtones</string>
+    <string name="get_started">Get Started</string>
+    <string name="language">Language</string>
+
+    //Permission
+    <string name="permission">Permission</string>
+    <string name="go">Go</string>
+    <string name="skip">Skip</string>
+    <string name="permission_content">\"Ringtone Maker\" need the following permissions to work properly</string>
+    <string name="write_setting">Write Setting</string>
+    <string name="write_external_storage">Write External Storage</string>
+    <string name="write_media_audio">Write Media Audio</string>
+    <string name="write_media_video">Write Media Video</string>
+    <string name="denied_external_storage">\"Ringtone Maker\" needs the Write External Storage permission to work properly</string>
+    <string name="denied_media_video">\"Ringtone Maker\" needs the Read Media Video permission to work properly</string>
+    <string name="denied_media_audio">\"Ringtone Maker\" needs the Read Media Audio permission to work properly</string>
+
+    //Dialog
+    <string name="enable_permission">Enable Permission</string>
+    <string name="go_to_setting">Go to setting</string>
+    <string name="cancel">Cancel</string>
+    <string name="denied_write_setting">\"Ringtone Maker\" needs the Write Setting permission to work properly</string>
+    <string name="ringtones">Ringtone</string>
+    <string name="my_favorite">Favorite</string>
+    <string name="add">Add</string>
+    <string name="setting">Setting</string>
+    <string name="my_sounds">My Sound</string>
+    <string name="language_options">Language options</string>
+    <string name="rate_us">Rate us</string>
+    <string name="share_app">Share app</string>
+    <string name="privacy_policy">Privacy policy</string>
+
+
+    //Rate
+    <string name="do_you_like_the_app">Do you like the app</string>
+    <string name="let_us_know_your_experience">Let us know your experience</string>
+    <string name="title_rate_default">Do you like the app?</string>
+    <string name="title_rate_1">Oh, no!</string>
+    <string name="title_rate_2">Poor!</string>
+    <string name="title_rate_3">Good!</string>
+    <string name="title_rate_4">Great!</string>
+    <string name="title_rate_5">We love you too!</string>
+    <string name="content_rate_default">Let us know your experience</string>
+    <string name="content_rate_1_2_3">Please give us some feedback</string>
+    <string name="content_rate_4_5">Thanks for your feedback </string>
+    <string name="please_feedback">Please feedback</string>
+    <string name="thank_you">Thank you for rating the app</string>
+    <string name="rate">Rate</string>
+    <string name="exit">Exit</string>
+
+
+    //Favorite
+    <string name="my_favorites">My Favorites</string>
+    <string name="no_data">No data</string>
+    <string name="no_favorites">You don’t have any favorite songs</string>
+    <string name="set_as_notification_sound">Set as Notification Sound</string>
+    <string name="set_as_alarm_sound">Set as Alarm Sound</string>
+    <string name="set_as_ringtone">Set as Ringtone Sound</string>
+    <string name="add_to_my_favorites">Add to My Favorites</string>
+    <string name="delete">Delete</string>
+
+    <string name="ballad_music">Ballad Music</string>
+    <string name="classical_music">Classical Music</string>
+    <string name="dance_music">Dance Music</string>
+    <string name="electronic_music">Electronic Music</string>
+    <string name="pop_music">Pop Music</string>
+    <string name="rock_music">Rock Music</string>
+    <string name="beat">Beat</string>
+    <string name="hiphop">Hip hop</string>
+    <string name="acoustic_music">Acoustic Music</string>
+    <string name="piano_music">Piano Music</string>
+
+    <string name="set_the_ringtone">You have successfully set the ringtone</string>
+    <string name="set_the_alarm">You have successfully set the alarm</string>
+    <string name="set_the_notification">You have successfully set the Notification</string>
+    <string name="can_not_found_record_audio_application">Recording application not found in your device. Please download the recording app from the app store.</string>
+    <string name="downloading_please_wait">Downloading, please wait…</string>
+    <string name="delete_from_my_favorites">Delete from My Favorites</string>
+    <string name="sounds">Sounds</string>
+    <string name="sound">Sound</string>
+
+    // Ringtones
+    <string name="welcome">Welcome!</string>
+    <string name="search_ringtones">Search ringtones…</string>
+    <string name="recent_play">Recent set music</string>
+    <string name="see_all">See all</string>
+    <string name="categories">Categories</string>
+
+    //My Sound
+    <string name="no_my_sound">You don’t have any songs in my sound</string>
+    <string name="edit">Edit</string>
+    <string name="change_name">Change name</string>
+    <string name="more">More</string>
+    <string name="start">Start</string>
+
+    //Search
+    <string name="recommended_for_you">Recommended for you</string>
+    <string name="result_not_found">Result Not Found</string>
+    <string name="sorry_we_couldn_t_find_any_results">Sorry, we couldn’t find any results</string>
+    <string name="happy">Happy</string>
+    <string name="bass">Bass</string>
+    <string name="funn">Fun</string>
+    <string name="rock">Rock</string>
+    <string name="love">Love</string>
+    <string name="dance">Dance</string>
+    <string name="beatboxer">Beatboxer</string>
+
+    <string name="new_name">New name</string>
+    <string name="confirm">Confirm</string>
+    <string name="character_name">Please do not use special characters to name.</string>
+    <string name="please_enter_name_sound">Please enter name sound.</string>
+    <string name="total">Total</string>
+    <string name="the_blue_area_will_be_removed">The blue area will be removed</string>
+    <string name="name_specific">Ringtone names cannot contain special characters. Please re-enter.</string>
+    <string name="name_empty">Please enter a name for the newly edited ringtone.</string>
+    <string name="error_edit">An error occurred while editing the ringtone. Please try again.</string>
+
+    <string name="audios">Audios</string>
+    <string name="all_audio">All Audios</string>
+    <string name="a_z">A - Z</string>
+    <string name="ascending">Ascending</string>
+    <string name="no_data_memory">\"Ringtone Maker\" needs the Read Media Audio permission to work properly</string>
+    <string name="date">Date</string>
+    <string name="size">Size</string>
+    <string name="decending">Decending</string>
+
+    <string name="pop_sound">Pop Sound</string>
+
+    <string name="all_recordings">All recordings</string>
+    <string name="new_record">New record</string>
+    <string name="set_as_message_sound">Set as Message Sound</string>
+    <string name="add_to_my_sounds">Add to My Sounds</string>
+    <string name="change_name_recording">Change name recording</string>
+    <string name="edit_recording">Edit recording</string>
+    <string name="videos">Videos</string>
+    <string name="all_video">All Videos</string>
+    <string name="no_video_memory">\"Ringtone Maker\" needs the Read Media Video permission to work properly</string>
+    <string name="done">Done</string>
+
+    <string name="select_audio_file">Select audio file</string>
+    <string name="split_from_video">Split from video</string>
+    <string name="record">Record</string>
+
+    <string name="guidelines">Guidelines</string>
+    <string name="welcome_to_ringtone_tutorial">Welcome to Ringtone Tutorial!</string>
+    <string name="content_welcome">The Ringtone Maker app is designed to simplify the process of creating and customizing ringtones to your liking. Here are some important guidelines:</string>
+    <string name="create_ringtones_from_existing_tracks">Create ringtones from existing tracks:</string>
+    <string name="content_create">Select the track you want to convert into a ringtone, then specify the area to cut and customize as desired.</string>
+    <string name="lofi_sound">Lofi Sound</string>
+    <string name="_120_sound">120 Sound</string>
+    <string name="rock_sound">Rock Sound</string>
+    <string name="ballad">Ballad</string>
+    <string name="dreamers">Dreamers</string>
+    <string name="cut_and_edit_audio">Cut and edit audio:</string>
+    <string name="content_cut">Use cutting tools, adjust volume, and add effects to create unique sound sequences.</string>
+    <string name="store">Store:</string>
+    <string name="content_store">Once created, you can store your ringtones on your device or in tab My Sounds for later use.</string>
+    <string name="support_and_assistance">Support and assistance:</string>
+    <string name="content_support">If you encounter any problems or have questions, please see help or contact us for assistance.</string>
+    <string name="thank_you_guide">Thank you for using Ringtone Maker and hope you have a great experience creating your own unique ringtones!</string>
+    <string name="best_of_2023">Best of 2023</string>
+
+</resources>

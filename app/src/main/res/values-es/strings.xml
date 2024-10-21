@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicación de tono de llamada</string>
+    <string name="ringtone_music">Tono musical</string>
+    <string name="this_action_can_contain_ads">Esta acción puede contener anuncios.</string>
+    <string name="next">Próximo</string>
+    <string name="get_start">Empezar</string>
+
+    //Intro
+    <string name="title_intro_1">Canciones de tonos de llamada</string>
+    <string name="title_intro_2">Canciones de tonos de llamada</string>
+
+    <string name="content_intro_1">Con Ringtones, la música adquiere un tono más refinado</string>
+    <string name="content_intro_2">Crea tonos de llamada personales a partir de la música que amas</string>
+    <string name="content_intro_3">Corta, edita y personaliza fácilmente para crear tonos de llamada especiales</string>
+    <string name="get_started">Empezar</string>
+    <string name="language">Idioma</string>
+
+    //Permission
+    <string name="permission">Permiso</string>
+    <string name="go">Ir</string>
+    <string name="skip">Saltar</string>
+    <string name="permission_content">\"Ringtone Maker\" necesita los siguientes permisos para funcionar correctamente</string>
+    <string name="write_setting">Configuración de escritura</string>
+    <string name="write_external_storage">Escribir almacenamiento externo</string>
+    <string name="write_media_audio">Escribir audio multimedia</string>
+    <string name="write_media_video">Escribir vídeo multimedia</string>
+    <string name="denied_external_storage">\"Ringtone Maker\" necesita el permiso de escritura en almacenamiento externo para funcionar correctamente</string>
+    <string name="denied_media_video">\"Ringtone Maker\" necesita el permiso Leer vídeo multimedia para funcionar correctamente</string>
+    <string name="denied_media_audio">\"Ringtone Maker\" necesita el permiso de lectura de audio multimedia para funcionar correctamente</string>
+
+    //Dialog
+    <string name="enable_permission">Habilitar permiso</string>
+    <string name="go_to_setting">Ir a configuración</string>
+    <string name="cancel">Cancelar</string>
+    <string name="denied_write_setting">\"Ringtone Maker\" necesita el permiso de configuración de escritura para funcionar correctamente</string>
+    <string name="ringtones">Tono de llamada</string>
+    <string name="my_favorite">Favorito</string>
+    <string name="add">Agregar</string>
+    <string name="setting">Configuración</string>
+    <string name="my_sounds">mi sonido</string>
+    <string name="language_options">Opciones de idioma</string>
+    <string name="rate_us">Califícanos</string>
+    <string name="share_app">Compartir aplicación</string>
+    <string name="privacy_policy">Política de privacidad</string>
+
+
+    //Rate
+    <string name="do_you_like_the_app">¿Te gusta la aplicación?</string>
+    <string name="let_us_know_your_experience">Cuéntanos tu experiencia</string>
+    <string name="title_rate_default">¿Te gusta la aplicación?</string>
+    <string name="title_rate_1">¡Oh, no!</string>
+    <string name="title_rate_2">¡Pobre!</string>
+    <string name="title_rate_3">¡Bien!</string>
+    <string name="title_rate_4">¡Excelente!</string>
+    <string name="title_rate_5">¡Nosotros también te amamos!</string>
+    <string name="content_rate_default">Cuéntanos tu experiencia</string>
+    <string name="content_rate_1_2_3">Por favor danos tu opinión</string>
+    <string name="content_rate_4_5">Gracias por tus comentarios </string>
+    <string name="please_feedback">Por favor comentarios</string>
+    <string name="thank_you">Gracias por calificar la aplicación.</string>
+    <string name="rate">Tasa</string>
+    <string name="exit">Salida</string>
+
+
+    //Favorite
+    <string name="my_favorites">Mis favoritos</string>
+    <string name="no_data">Sin datos</string>
+    <string name="no_favorites">No tienes ninguna canción favorita.</string>
+    <string name="set_as_notification_sound">Establecer como sonido de notificación</string>
+    <string name="set_as_alarm_sound">Establecer como sonido de alarma</string>
+    <string name="set_as_ringtone">Establecer como sonido de tono de llamada</string>
+    <string name="add_to_my_favorites">Añadir a Mis favoritos</string>
+    <string name="delete">Borrar</string>
+
+    <string name="ballad_music">Música balada</string>
+    <string name="classical_music">Música clásica</string>
+    <string name="dance_music">Música de baile</string>
+    <string name="electronic_music">Música Electrónica</string>
+    <string name="pop_music">Música pop</string>
+    <string name="rock_music">Música rock</string>
+    <string name="beat">Derrotar</string>
+    <string name="hiphop">hip-hop</string>
+    <string name="acoustic_music">Música Acústica</string>
+    <string name="piano_music">Música de piano</string>
+
+    <string name="set_the_ringtone">Has configurado correctamente el tono de llamada.</string>
+    <string name="set_the_alarm">Has configurado correctamente la alarma.</string>
+    <string name="set_the_notification">Has configurado correctamente la notificación.</string>
+    <string name="can_not_found_record_audio_application">La aplicación de grabación no se encuentra en su dispositivo. Descargue la aplicación de grabación de la tienda de aplicaciones.</string>
+    <string name="downloading_please_wait">Descargando, por favor espere...</string>
+    <string name="delete_from_my_favorites">Eliminar de Mis favoritos</string>
+    <string name="sounds">sonidos</string>
+    <string name="sound">Sonido</string>
+
+    // Ringtones
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="search_ringtones">Buscar tonos de llamada…</string>
+    <string name="recent_play">Música reciente</string>
+    <string name="see_all">Ver todo</string>
+    <string name="categories">Categorías</string>
+
+    //My Sound
+    <string name="no_my_sound">No tienes ninguna canción en mi sonido.</string>
+    <string name="edit">Editar</string>
+    <string name="change_name">Cambiar nombre</string>
+    <string name="more">Más</string>
+    <string name="start">Comenzar</string>
+
+    //Search
+    <string name="recommended_for_you">Recomendado para ti</string>
+    <string name="result_not_found">Resultado no encontrado</string>
+    <string name="sorry_we_couldn_t_find_any_results">Lo sentimos, no pudimos encontrar ningún resultado.</string>
+    <string name="happy">Feliz</string>
+    <string name="bass">Bajo</string>
+    <string name="funn">Divertido</string>
+    <string name="rock">Roca</string>
+    <string name="love">Amar</string>
+    <string name="dance">Bailar</string>
+    <string name="beatboxer">beatboxer</string>
+
+    <string name="new_name">Nuevo nombre</string>
+    <string name="confirm">Confirmar</string>
+    <string name="character_name">No utilice caracteres especiales para nombrar.</string>
+    <string name="please_enter_name_sound">Por favor ingrese el sonido del nombre.</string>
+    <string name="total">Total</string>
+    <string name="the_yellow_area_will_be_removed">El área amarilla será eliminada.</string>
+    <string name="name_specific">Los nombres de los tonos de llamada no pueden contener caracteres especiales. Por favor vuelva a ingresar.</string>
+    <string name="name_empty">Ingrese un nombre para el tono de llamada recién editado.</string>
+    <string name="error_edit">Se produjo un error al editar el tono de llamada. Por favor inténtalo de nuevo.</string>
+
+    <string name="audios">Audios</string>
+    <string name="all_audio">Todos los audios</string>
+    <string name="a_z">A-Z</string>
+    <string name="ascending">Ascendente</string>
+    <string name="no_data_memory">\"Ringtone Maker\" necesita el permiso de lectura de audio multimedia para funcionar correctamente</string>
+    <string name="date">Fecha</string>
+    <string name="size">Tamaño</string>
+    <string name="decending">Descendente</string>
+
+    <string name="pop_sound">sonido pop</string>
+
+    <string name="all_recordings">Todas las grabaciones</string>
+    <string name="new_record">Nuevo récord</string>
+    <string name="set_as_message_sound">Establecer como sonido de mensaje</string>
+    <string name="add_to_my_sounds">Añadir a Mis Sonidos</string>
+    <string name="change_name_recording">Cambiar nombre de grabación</string>
+    <string name="edit_recording">Editar grabación</string>
+    <string name="videos">Vídeos</string>
+    <string name="all_video">Todos los vídeos</string>
+    <string name="no_video_memory">\"Ringtone Maker\" necesita el permiso Leer vídeo multimedia para funcionar correctamente</string>
+    <string name="done">Hecho</string>
+
+    <string name="select_audio_file">Seleccionar archivo de audio</string>
+    <string name="split_from_video">Dividido del vídeo</string>
+    <string name="record">Registro</string>
+
+    <string name="guidelines">Pautas</string>
+    <string name="welcome_to_ringtone_tutorial">¡Bienvenido al tutorial de tonos de llamada!</string>
+    <string name="content_welcome">La aplicación Ringtone Maker está diseñada para simplificar el proceso de creación y personalización de tonos de llamada a tu gusto. Aquí hay algunas pautas importantes:</string>
+    <string name="create_ringtones_from_existing_tracks">Crea tonos de llamada a partir de pistas existentes:</string>
+    <string name="content_create">Seleccione la pista que desea convertir en tono de llamada, luego especifique el área para cortar y personalizar como desee.</string>
+    <string name="lofi_sound">Sonido Lofi</string>
+    <string name="_120_sound">120 sonido</string>
+    <string name="rock_sound">Sonido de roca</string>
+    <string name="ballad">Balada</string>
+    <string name="dreamers">Soñadores</string>
+    <string name="cut_and_edit_audio">Cortar y editar audio:</string>
+    <string name="content_cut">Utilice herramientas de corte, ajuste el volumen y agregue efectos para crear secuencias de sonido únicas.</string>
+    <string name="store">Almacenar:</string>
+    <string name="content_store">Una vez creados, puedes almacenar tus tonos de llamada en tu dispositivo o en la pestaña Mis sonidos para usarlos más adelante.</string>
+    <string name="support_and_assistance">Soporte y asistencia:</string>
+    <string name="content_support">Si tiene algún problema o tiene preguntas, consulte la ayuda o contáctenos para obtener ayuda.</string>
+    <string name="thank_you_guide">¡Gracias por utilizar Ringtone Maker y esperamos que tengas una gran experiencia creando tus propios tonos de llamada únicos!</string>
+
+</resources>

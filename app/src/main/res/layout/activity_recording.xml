@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/im_set_back">
+
+        <ImageView
+            android:id="@+id/imBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:src="@drawable/ic_back"
+            android:padding="@dimen/_10sdp"
+            android:background="@drawable/custom_ripple_image"
+            app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvTitle" />
+
+        <ImageView
+            android:id="@+id/imChooseAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/done"
+
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvTitle" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/signika_bold"
+            android:gravity="center"
+            android:text="@string/all_recordings"
+            android:textColor="#F6F8F8"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toRightOf="@+id/imBack"
+            app:layout_constraintRight_toLeftOf="@+id/imChooseAudio"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcAudio"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toTopOf="@+id/viewRecord"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            tools:listitem="@layout/item_recording" />
+        <View
+            android:id="@+id/viewRecord"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#202427"
+            app:layout_constraintTop_toTopOf="@id/tvNewRecord"
+            />
+
+        <ImageView
+            android:id="@+id/imRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/im_record"
+            android:paddingTop="@dimen/_22sdp"
+            android:layout_marginBottom="@dimen/_22sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <ImageView
+            android:id="@+id/imEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:src="@drawable/im_edit"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/imRecord"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTimeRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/imEdit"
+            tools:text="00:04:15"
+            app:layout_constraintLeft_toLeftOf="@id/imRecord"
+            app:layout_constraintRight_toRightOf="@id/imRecord"
+            android:textSize="14sp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:textColor="#8B93A7"            android:visibility="gone"
+
+            android:fontFamily="@font/segoe_ui"
+            />
+        <TextView
+            android:id="@+id/tvNewRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/tvTimeRecord"
+            android:text="@string/new_record"
+            android:layout_marginBottom="@dimen/_5sdp"
+            app:layout_constraintLeft_toLeftOf="@id/imRecord"
+            app:layout_constraintRight_toRightOf="@id/imRecord"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:paddingTop="@dimen/_16sdp"
+            android:textColor="#F6F8F8"
+            android:fontFamily="@font/segoe_ui_semibold"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

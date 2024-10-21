@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#00FFFFFF"
+            android:background="#00FFFFFF"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="20dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#42494E"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvChangeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/signika_semi_bold"
+                    android:text="@string/change_name"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    />
+
+
+                <EditText
+                    android:id="@+id/edtInputPlayList"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/bg_change_name"
+                    android:drawablePadding="12dp"
+                    android:fontFamily="@font/signika_regular"
+                    android:hint="@string/new_name"
+                    android:imeOptions="actionDone"
+                    android:maxLength="90"
+                    android:singleLine="true"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#676E7C"
+                    android:textSize="16sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvChangeName" />
+
+
+
+                <com.example.appa.ui.customview.RippleCornerTextView
+                    android:id="@+id/btnCancel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/signika_semi_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingVertical="12dp"
+                    android:text="@string/cancel"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:backgroundColorView="@color/black"
+                    app:cornerRadius="24dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@+id/btnConfirm"
+                    app:layout_constraintTop_toBottomOf="@id/edtInputPlayList"
+                    app:strokeColorT="@color/black" />
+
+                <com.example.appa.ui.customview.RippleCornerTextView
+                    android:id="@+id/btnConfirm"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="16dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/signika_semi_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:paddingVertical="12dp"
+                    android:text="@string/confirm"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:cornerRadius="24dp"
+                    app:backgroundColorView="#45B4BD"
+                    app:layout_constraintLeft_toRightOf="@id/btnCancel"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/edtInputPlayList"
+                     />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+
+</layout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="8dp">
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cvImage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#00FFFFFF"
+            app:cardBackgroundColor="#00FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#45B4BD"
+            app:strokeWidth="3dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:id="@+id/imVideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_intro_1" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.example.appa.ui.customview.RippleCornerTextView
+            android:id="@+id/tvDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/signika_regular"
+            android:paddingHorizontal="@dimen/_4sdp"
+            android:paddingVertical="@dimen/_2sdp"
+            android:textColor="#F0F1F4"
+            android:textSize="12sp"
+            app:backgroundColorView="#66ADADAD"
+            app:cornerRadius="6dp"
+            app:layout_constraintBottom_toBottomOf="@id/cvImage"
+            app:layout_constraintRight_toRightOf="@id/cvImage"
+            tools:ignore="SmallSp"
+            tools:text="00:00" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </layout>

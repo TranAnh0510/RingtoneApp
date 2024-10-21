@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_dialog_option_all_record"
+            android:paddingTop="12dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="4dp"
+                app:layout_constraintBottom_toTopOf="@id/tvEdit">
+
+                <ImageView
+                    android:id="@+id/imRecord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/im_audio_device"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvNameRecord"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/signika_semi_bold"
+                    android:includeFontPadding="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/imRecord"
+                    app:layout_constraintTop_toTopOf="@id/imRecord"
+                    tool:text="New recording" />
+
+                <TextView
+                    android:id="@+id/tvInformation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="@font/signika_regular"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@id/imRecord"
+                    app:layout_constraintEnd_toEndOf="@id/tvNameRecord"
+                    app:layout_constraintStart_toStartOf="@id/tvNameRecord"
+                    tool:text="17:06 - 491 kB" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="#252E32"
+                    app:layout_constraintTop_toBottomOf="@id/tvInformation" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:drawableStart="@drawable/ic_edit_recording"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/signika_regular"
+                android:foreground="?selectableItemBackground"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/edit_recording"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintBottom_toTopOf="@id/tvChangeName" />
+
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvChangeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:drawableStart="@drawable/ic_change_name"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/signika_regular"
+                android:foreground="?selectableItemBackground"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/change_name_recording"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintBottom_toTopOf="@id/tvAddToMySound" />
+
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvAddToMySound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:drawableStart="@drawable/ic_add_to_my_sound"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/signika_regular"
+                android:foreground="?selectableItemBackground"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/add_to_my_sounds"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintBottom_toTopOf="@id/tvAddToFavorite" />
+
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvAddToFavorite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:drawableStart="@drawable/ic_add_to_favorite"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/signika_regular"
+                android:foreground="?selectableItemBackground"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/add_to_my_favorites"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintBottom_toTopOf="@id/tvSetRingtone" />
+
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvSetRingtone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:drawableStart="@drawable/ic_set_ringtone"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/signika_regular"
+                android:foreground="?selectableItemBackground"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/set_as_ringtone"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintBottom_toTopOf="@id/tvSetMessage" />
+
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvSetMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:drawableStart="@drawable/ic_set_message"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/signika_regular"
+                android:foreground="?selectableItemBackground"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/set_as_message_sound"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintBottom_toTopOf="@id/tvSetNotification" />
+
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvSetNotification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:drawableStart="@drawable/ic_set_notification"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/signika_regular"
+                android:foreground="?selectableItemBackground"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/set_as_notification_sound"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintBottom_toTopOf="@id/tvDelete" />
+
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:drawableStart="@drawable/ic_delete"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/signika_regular"
+                android:foreground="?selectableItemBackground"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/delete"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+</layout>

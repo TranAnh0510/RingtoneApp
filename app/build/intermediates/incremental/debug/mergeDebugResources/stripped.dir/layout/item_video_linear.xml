@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:tag="layout/item_video_linear_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <View
+            android:id="@+id/viewImageSelect"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:foreground="@drawable/custom_ripple_item_12dp"
+            android:layout_gravity="start|top"
+            android:background="@drawable/bg_audio_select"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/tvLine"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvImageRingTone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="10dp"
+            android:background="#00FFFFFF"
+            app:cardBackgroundColor="#00FFFFFF"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:id="@+id/imRingTone"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_audio_device" />
+
+        </androidx.cardview.widget.CardView>
+        <com.example.appa.ui.customview.RippleCornerTextView
+            android:id="@+id/tvDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/segoe_ui"
+            android:paddingHorizontal="@dimen/_4sdp"
+            android:textColor="#F0F1F4"
+            android:textSize="10sp"
+            app:backgroundColorView="#B325272D"
+            app:cornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="@id/cvImageRingTone"
+            app:layout_constraintRight_toRightOf="@id/cvImageRingTone"
+            tools:ignore="SmallSp"
+            tools:text="00:00" />
+
+
+        <TextView
+            android:id="@+id/tvNameVideo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:ellipsize="end"
+            android:fontFamily="@font/signika_semi_bold"
+            android:maxLines="1"
+            android:paddingEnd="5dp"
+            android:textColor="#F6F8F8"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvDateAndCapacity"
+            app:layout_constraintLeft_toRightOf="@+id/cvImageRingTone"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cvImageRingTone"
+            tools:text="Cheri Cheri Lady Cheri Cheri Lady Cheri Cheri Lady" />
+
+        <TextView
+            android:id="@+id/tvDateAndCapacity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/signika_light"
+            android:maxLines="1"
+            android:paddingEnd="5dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/cvImageRingTone"
+            app:layout_constraintLeft_toLeftOf="@+id/tvNameVideo"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvNameVideo"
+            tools:text="Cheri Cheri Lady Cheri Cheri Lady" />
+
+        <TextView
+            android:id="@+id/tvLine"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="#252E32"
+            android:layout_marginHorizontal="5dp"
+            android:fontFamily="@font/signika_light"
+            app:layout_constraintRight_toRightOf="@+id/viewImageSelect"
+            app:layout_constraintLeft_toLeftOf="@+id/cvImageRingTone"
+            app:layout_constraintTop_toBottomOf="@+id/cvImageRingTone" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

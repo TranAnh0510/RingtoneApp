@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_change_name_my_sound.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_change_name_my_sound.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_search.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_guide_line.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_guide_line.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_multi_lang.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_multi_lang.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_denied_write_setting.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_denied_write_setting.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_main.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_favorites.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_favorites.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_my_sounds.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_my_sounds.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_cate.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_cate.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_search.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_search.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_recent.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_recent.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_recent_act.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_recent_act.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_option_recent.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_recent.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/fragment_my_sound.xml",
+        "source": "com.example.appa.app-main-76:/layout/fragment_my_sound.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_denied_media_video.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_denied_media_video.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_category_detail.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_category_detail.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_option_all_record.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_all_record.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_option_category.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_category.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_history_search.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_history_search.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_rate.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_rate.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_intro.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_intro.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_choose_video.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_choose_video.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/fragment_favorite.xml",
+        "source": "com.example.appa.app-main-76:/layout/fragment_favorite.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_audio.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_audio.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/fragment_ringtones.xml",
+        "source": "com.example.appa.app-main-76:/layout/fragment_ringtones.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_recording.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_recording.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/fragment_setting.xml",
+        "source": "com.example.appa.app-main-76:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_video_linear.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_video_linear.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_sort.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_sort.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_option_search.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_search.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_category.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_category.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_categories.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_categories.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_option_my_sound.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_my_sound.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_edit_my_sound.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_edit_my_sound.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_permission.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_permission.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_multi_lang.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_multi_lang.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_denied_media_audio.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_denied_media_audio.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_recent.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_recent.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_video.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_video.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_denied_external_storage.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_denied_external_storage.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_grid_audio.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_grid_audio.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/item_audio.xml",
+        "source": "com.example.appa.app-main-76:/layout/item_audio.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_recording.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_recording.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_ascending.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_ascending.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/custom_bottom_navigation.xml",
+        "source": "com.example.appa.app-main-76:/layout/custom_bottom_navigation.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_intro.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/activity_splash.xml",
+        "source": "com.example.appa.app-main-76:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_option_favorite.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_favorite.xml"
+    },
+    {
+        "merged": "com.example.appa.app-mergeDebugResources-73:/layout/dialog_loading.xml",
+        "source": "com.example.appa.app-main-76:/layout/dialog_loading.xml"
+    }
+]

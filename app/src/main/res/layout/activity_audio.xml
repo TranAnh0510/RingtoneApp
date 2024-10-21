@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/im_set_back">
+
+        <ImageView
+            android:id="@+id/imBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:background="@drawable/custom_ripple_image"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvTitle" />
+
+        <ImageView
+            android:id="@+id/imChooseAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:foreground="@drawable/custom_ripple_image"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/done"
+            app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvTitle" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/signika_bold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:text="@string/audios"
+            android:textColor="#F6F8F8"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintLeft_toRightOf="@+id/imBack"
+            app:layout_constraintRight_toLeftOf="@+id/imChooseAudio"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAllAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/signika_semi_bold"
+            android:includeFontPadding="false"
+            android:text="@string/all_audio"
+            android:textColor="#F6F8F8"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+        <TextView
+            android:id="@+id/tvSortAZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:drawablePadding="@dimen/_8sdp"
+            android:fontFamily="@font/signika_regular"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/a_z"
+            android:textColor="#F6F8F8"
+            android:textSize="@dimen/_11ssp"
+            app:drawableRightCompat="@drawable/ic_down"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvAscending" />
+
+        <View
+            android:id="@+id/locationToShow"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            app:layout_constraintBottom_toBottomOf="@id/tvSortAZ"
+            app:layout_constraintStart_toStartOf="@id/tvSortAZ" />
+
+
+        <ImageView
+            android:id="@+id/imGridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:src="@drawable/ic_grid"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+        <TextView
+            android:id="@+id/tvAscending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:drawablePadding="@dimen/_8sdp"
+            android:fontFamily="@font/signika_regular"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/ascending"
+            android:textColor="#F6F8F8"
+            android:textSize="@dimen/_11ssp"
+            app:drawableRightCompat="@drawable/ic_down"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imGridLayout" />
+
+        <View
+            android:id="@+id/locationToShowAscending"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            app:layout_constraintBottom_toBottomOf="@id/tvAscending"
+            app:layout_constraintEnd_toEndOf="@id/tvAscending" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcAudioGrid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:paddingBottom="12dp"
+            android:visibility="visible"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSortAZ"
+            app:spanCount="3"
+            tools:listitem="@layout/item_grid_audio" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcAudio"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            android:paddingBottom="12dp"
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSortAZ"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="16dp"
+            tools:listitem="@layout/item_audio" />
+
+        <ImageView
+            android:id="@+id/imNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/im_no_data_favorite"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+        <TextView
+            android:id="@+id/tvTitleNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/signika_semi_bold"
+            android:visibility="gone"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/no_data"
+            android:textColor="#F6F8F8"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/imNoData" />
+
+        <TextView
+            android:id="@+id/tvNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/signika_regular"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:includeFontPadding="false"
+            android:text="@string/no_data_memory"
+            android:textColor="#8B93A7"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleNoData" />
+
+        <com.example.appa.ui.customview.RippleCornerTextView
+            android:id="@+id/tvGoToSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/signika_semi_bold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="12dp"
+            android:text="@string/go_to_setting"
+            android:textColor="#F6F8F8"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:backgroundColorView="#00FFFFFF"
+            app:cornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvNoData" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

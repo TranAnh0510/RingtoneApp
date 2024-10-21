@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvImageSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            app:cardBackgroundColor="#00FFFFFF"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imSound"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_85sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_intro_1"
+                android:visibility="visible" />
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_ripple_image"
+            android:padding="3dp"
+            android:src="@drawable/ic_play"
+            app:layout_constraintBottom_toBottomOf="@+id/cvImageSound"
+            app:layout_constraintLeft_toLeftOf="@+id/cvImageSound"
+            app:layout_constraintRight_toRightOf="@+id/cvImageSound"
+            app:layout_constraintTop_toTopOf="@+id/cvImageSound" />
+
+        <TextView
+            android:id="@+id/tvNameSound"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/signika_bold"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textColor="#F6F8F8"
+            android:textSize="10sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/imMore"
+            app:layout_constraintTop_toBottomOf="@+id/cvImageSound"
+            tools:text="Jingle Bells" />
+
+        <ImageView
+            android:id="@+id/imMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_ripple_image"
+            android:src="@drawable/ic_more"
+            android:padding="2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvNameSound"
+            app:layout_constraintRight_toRightOf="@+id/cvImageSound"
+            app:layout_constraintTop_toTopOf="@+id/tvNameSound" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

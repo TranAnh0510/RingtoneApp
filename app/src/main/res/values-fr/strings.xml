@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Application de sonnerie</string>
+    <string name="ringtone_music">Sonnerie Musique</string>
+    <string name="this_action_can_contain_ads">Cette action peut contenir des annonces</string>
+    <string name="next">Suivant</string>
+    <string name="get_start">Commencer</string>
+
+    //Intro
+    <string name="title_intro_1">Sonneries Chansons</string>
+    <string name="title_intro_2">Sonneries Chansons</string>
+    <string name="title_intro_3">Sonneries Chansons</string>
+    <string name="content_intro_1">Avec les sonneries, la musique devient plus raffinée</string>
+    <string name="content_intro_2">Créez des sonneries personnelles à partir de la musique que vous aimez</string>
+    <string name="content_intro_3">Coupez, modifiez et personnalisez facilement pour créer des sonneries spéciales</string>
+    <string name="get_started">Commencer</string>
+    <string name="language">Langue</string>
+
+    //Permission
+    <string name="permission">Autorisation</string>
+    <string name="go">Aller</string>
+    <string name="skip">Sauter</string>
+    <string name="permission_content">\"Ringtone Maker\" a besoin des autorisations suivantes pour fonctionner correctement</string>
+    <string name="write_setting">Paramètres d\'écriture</string>
+    <string name="write_external_storage">Écrire un stockage externe</string>
+    <string name="write_media_audio">Écrire l\'audio multimédia</string>
+    <string name="write_media_video">Écrire une vidéo multimédia</string>
+    <string name="denied_external_storage">\"Ringtone Maker\" a besoin de l\'autorisation d\'écriture sur le stockage externe pour fonctionner correctement</string>
+    <string name="denied_media_video">\"Ringtone Maker\" a besoin de l\'autorisation Lire la vidéo multimédia pour fonctionner correctement</string>
+    <string name="denied_media_audio">\"Ringtone Maker\" a besoin de l\'autorisation Lire le média audio pour fonctionner correctement</string>
+
+    //Dialog
+    <string name="enable_permission">Activer l\'autorisation</string>
+    <string name="go_to_setting">Aller au réglage</string>
+    <string name="cancel">Annuler</string>
+    <string name="denied_write_setting">\"Ringtone Maker\" a besoin de l\'autorisation de paramètre d\'écriture pour fonctionner correctement</string>
+    <string name="ringtones">Sonnerie</string>
+    <string name="my_favorite">Préféré</string>
+    <string name="add">Ajouter</string>
+    <string name="setting">Paramètre</string>
+    <string name="my_sounds">Mon son</string>
+    <string name="language_options">Options de langue</string>
+    <string name="rate_us">Évaluez-nous</string>
+    <string name="share_app">Partager l\'application</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+
+
+    //Rate
+    <string name="do_you_like_the_app">Aimez-vous l\'application</string>
+    <string name="let_us_know_your_experience">Faites-nous part de votre expérience</string>
+    <string name="title_rate_default">Aimez-vous l\'application?</string>
+    <string name="title_rate_1">Oh non!</string>
+    <string name="title_rate_2">Pauvre!</string>
+    <string name="title_rate_3">Bien!</string>
+    <string name="title_rate_4">Super!</string>
+    <string name="title_rate_5">On t\'aime aussi !</string>
+    <string name="content_rate_default">Faites-nous part de votre expérience</string>
+    <string name="content_rate_1_2_3">Merci de nous faire part de vos commentaires</string>
+    <string name="content_rate_4_5">Merci pour vos commentaires </string>
+    <string name="please_feedback">S\'il vous plaît commentaires</string>
+    <string name="thank_you">Merci d\'avoir noté l\'application</string>
+    <string name="rate">Taux</string>
+    <string name="exit">Sortie</string>
+
+
+    //Favorite
+    <string name="my_favorites">Mes favoris</string>
+    <string name="no_data">Aucune donnée</string>
+    <string name="no_favorites">Vous n\'avez aucune chanson préférée</string>
+    <string name="set_as_notification_sound">Définir comme son de notification</string>
+    <string name="set_as_alarm_sound">Définir comme son d\'alarme</string>
+    <string name="set_as_ringtone">Définir comme sonnerie</string>
+    <string name="add_to_my_favorites">Ajouter à mes favoris</string>
+    <string name="delete">Supprimer</string>
+
+    <string name="ballad_music">Musique de ballade</string>
+    <string name="classical_music">Musique classique</string>
+    <string name="dance_music">Musique de danse</string>
+    <string name="electronic_music">Musique électronique</string>
+    <string name="pop_music">Musique pop</string>
+    <string name="rock_music">Musique rock</string>
+    <string name="beat">Battre</string>
+    <string name="hiphop">Hip-hop</string>
+    <string name="acoustic_music">Musique acoustique</string>
+    <string name="piano_music">Musique pour piano</string>
+
+    <string name="set_the_ringtone">Vous avez réussi à définir la sonnerie</string>
+    <string name="set_the_alarm">Vous avez réglé l\'alarme avec succès</string>
+    <string name="set_the_notification">Vous avez correctement défini la notification</string>
+    <string name="can_not_found_record_audio_application">Application d\'enregistrement introuvable sur votre appareil. Veuillez télécharger l\'application d\'enregistrement depuis l\'App Store.</string>
+    <string name="downloading_please_wait">Téléchargement, veuillez patienter…</string>
+    <string name="delete_from_my_favorites">Supprimer de mes favoris</string>
+    <string name="sounds">Des sons</string>
+    <string name="sound">Son</string>
+
+    // Ringtones
+    <string name="welcome">Accueillir!</string>
+    <string name="search_ringtones">Rechercher des sonneries…</string>
+    <string name="recent_play">Musique récente</string>
+    <string name="see_all">Voir tout</string>
+    <string name="categories">Catégories</string>
+
+    //My Sound
+    <string name="no_my_sound">Tu n\'as aucune chanson dans mon son</string>
+    <string name="edit">Modifier</string>
+    <string name="change_name">Changer de nom</string>
+    <string name="more">Plus</string>
+    <string name="start">Commencer</string>
+
+    //Search
+    <string name="recommended_for_you">Recommandé pour vous</string>
+    <string name="result_not_found">Résultat introuvable</string>
+    <string name="sorry_we_couldn_t_find_any_results">Désolé, nous n\'avons trouvé aucun résultat</string>
+    <string name="happy">Heureux</string>
+    <string name="bass">Basse</string>
+    <string name="funn">Amusant</string>
+    <string name="rock">Rocher</string>
+    <string name="love">Amour</string>
+    <string name="dance">Danse</string>
+    <string name="beatboxer">Beatboxeur</string>
+
+    <string name="new_name">Nouveau nom</string>
+    <string name="confirm">Confirmer</string>
+    <string name="character_name">Veuillez ne pas utiliser de caractères spéciaux pour nommer.</string>
+    <string name="please_enter_name_sound">Veuillez saisir le son du nom.</string>
+    <string name="total">Total</string>
+    <string name="the_yellow_area_will_be_removed">La zone jaune sera supprimée</string>
+    <string name="name_specific">Les noms de sonneries ne peuvent pas contenir de caractères spéciaux. Veuillez entrer à nouveau.</string>
+    <string name="name_empty">Veuillez saisir un nom pour la sonnerie nouvellement modifiée.</string>
+    <string name="error_edit">Une erreur s\'est produite lors de la modification de la sonnerie. Veuillez réessayer.</string>
+
+    <string name="audios">Audios</string>
+    <string name="all_audio">Tous les audios</string>
+    <string name="a_z">A - Z</string>
+    <string name="ascending">Ascendant</string>
+    <string name="no_data_memory">\"Ringtone Maker\" a besoin de l\'autorisation Lire le média audio pour fonctionner correctement</string>
+    <string name="date">Date</string>
+    <string name="size">Taille</string>
+    <string name="decending">Décroissant</string>
+
+    <string name="pop_sound">Son pop</string>
+
+    <string name="all_recordings">Tous les enregistrements</string>
+    <string name="new_record">Nouveau record</string>
+    <string name="set_as_message_sound">Définir comme son de message</string>
+    <string name="add_to_my_sounds">Ajouter à mes sons</string>
+    <string name="change_name_recording">Modifier l\'enregistrement du nom</string>
+    <string name="edit_recording">Modifier l\'enregistrement</string>
+    <string name="videos">Vidéos</string>
+    <string name="all_video">Toutes les vidéos</string>
+    <string name="no_video_memory">\"Ringtone Maker\" a besoin de l\'autorisation Lire la vidéo multimédia pour fonctionner correctement</string>
+    <string name="done">Fait</string>
+
+    <string name="select_audio_file">Sélectionnez le fichier audio</string>
+    <string name="split_from_video">Séparé de la vidéo</string>
+    <string name="record">Enregistrer</string>
+
+    <string name="guidelines">Lignes directrices</string>
+    <string name="welcome_to_ringtone_tutorial">Bienvenue dans le didacticiel de sonnerie !</string>
+    <string name="content_welcome">L\'application Ringtone Maker est conçue pour simplifier le processus de création et de personnalisation des sonneries à votre guise. Voici quelques directives importantes :</string>
+    <string name="create_ringtones_from_existing_tracks">Créez des sonneries à partir de pistes existantes :</string>
+    <string name="content_create">Sélectionnez la piste que vous souhaitez convertir en sonnerie, puis précisez la zone à couper et à personnaliser à votre guise.</string>
+    <string name="lofi_sound">Son Lofi</string>
+    <string name="_120_sound">120 sons</string>
+    <string name="rock_sound">Son rock</string>
+    <string name="ballad">Ballade</string>
+    <string name="dreamers">Rêveurs</string>
+    <string name="cut_and_edit_audio">Couper et éditer l\'audio :</string>
+    <string name="content_cut">Utilisez des outils de découpe, réglez le volume et ajoutez des effets pour créer des séquences sonores uniques.</string>
+    <string name="store">Magasin:</string>
+    <string name="content_store">Une fois créée, vous pouvez stocker vos sonneries sur votre appareil ou dans l\'onglet Mes sons pour une utilisation ultérieure.</string>
+    <string name="support_and_assistance">Accompagnement et assistance :</string>
+    <string name="content_support">Si vous rencontrez des problèmes ou avez des questions, veuillez consulter l\'aide ou nous contacter pour obtenir de l\'aide.</string>
+    <string name="thank_you_guide">Merci d\'utiliser Ringtone Maker et j\'espère que vous vivrez une expérience formidable en créant vos propres sonneries uniques !</string>
+</resources>

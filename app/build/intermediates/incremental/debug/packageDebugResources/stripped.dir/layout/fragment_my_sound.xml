@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000" android:tag="layout/fragment_my_sound_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/signika_bold"
+            android:layout_marginLeft="24dp"
+            android:text="@string/my_sounds"
+            android:textColor="#F6F8F8"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imNoData"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:src="@drawable/im_my_sound_no_data"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+        <TextView
+            android:id="@+id/tvTitleNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/signika_semi_bold"
+            android:visibility="gone"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/no_data"
+            android:textColor="#F6F8F8"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/imNoData" />
+
+        <TextView
+            android:id="@+id/tvContentNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:text="@string/no_my_sound"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:fontFamily="@font/signika_regular"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleNoData" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcMySounds"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            android:paddingBottom="@dimen/_60sdp"
+            android:visibility="visible"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            tools:listitem="@layout/item_my_sounds" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

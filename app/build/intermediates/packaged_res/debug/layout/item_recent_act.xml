@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:background="?selectableItemBackground" android:tag="layout/item_recent_act_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvImageRingTone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="#00FFFFFF"
+            app:cardBackgroundColor="#00FFFFFF"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp">
+                <ImageView
+                    android:id="@+id/imSound"
+                    android:layout_width="@dimen/_48sdp"
+                    android:layout_height="@dimen/_48sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_intro_3"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imPlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="1dp"
+                    android:src="@drawable/ic_play"
+                    app:layout_constraintBottom_toBottomOf="@id/imSound"
+                    app:layout_constraintLeft_toLeftOf="@id/imSound"
+                    app:layout_constraintRight_toRightOf="@id/imSound"
+                    app:layout_constraintTop_toTopOf="@+id/imSound" />
+
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvNameRingTone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:ellipsize="end"
+            android:fontFamily="@font/signika_semi_bold"
+            android:maxLines="1"
+            android:paddingEnd="5dp"
+            android:textColor="#F6F8F8"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvDuration"
+            app:layout_constraintLeft_toRightOf="@+id/cvImageRingTone"
+            app:layout_constraintRight_toLeftOf="@+id/imMoreInvisible"
+            app:layout_constraintTop_toTopOf="@+id/cvImageRingTone"
+            tools:text="Cheri Cheri Lady Cheri Cheri Lady Cheri Cheri Lady" />
+
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/signika_light"
+            android:maxLines="1"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/cvImageRingTone"
+            app:layout_constraintLeft_toLeftOf="@+id/tvNameRingTone"
+            app:layout_constraintRight_toLeftOf="@+id/imMoreInvisible"
+            app:layout_constraintTop_toBottomOf="@+id/tvNameRingTone"
+            tools:text="Cheri Cheri Lady Cheri Cheri Lady" />
+        <ImageView
+            android:id="@+id/imMoreInvisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_ripple_image"
+            android:padding="5dp"
+            android:src="@drawable/ic_more"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@id/cvImageRingTone"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cvImageRingTone" />
+        <ImageView
+            android:id="@+id/imDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_ripple_image"
+            android:padding="5dp"
+            android:src="@drawable/ic_download"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/cvImageRingTone"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cvImageRingTone" />
+        <ImageView
+            android:id="@+id/imMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_ripple_image"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_more"
+            app:layout_constraintBottom_toBottomOf="@id/cvImageRingTone"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cvImageRingTone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:fontFamily="@font/signika_light"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="#252E32"
+            app:layout_constraintTop_toBottomOf="@+id/cvImageRingTone" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

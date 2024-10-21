@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+
+    <FrameLayout
+        android:id="@+id/layoutRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00FFFFFF">
+
+        <LinearLayout
+            android:id="@+id/rootContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_dialog_sort"
+            android:orientation="vertical"
+            android:paddingHorizontal="12dp"
+
+            android:visibility="visible">
+
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvAscending"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="28dp"
+                android:fontFamily="@font/signika_semi_bold"
+                android:foreground="?selectableItemBackground"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:paddingVertical="14dp"
+                android:text="@string/ascending"
+                android:textColor="#E2E4E9"
+                android:textSize="14sp"
+                app:backgroundColorView="#00000000"
+                android:drawableEnd="@drawable/done"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#51596C" />
+
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvDecending"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="28dp"
+                android:fontFamily="@font/signika_regular"
+                android:foreground="?selectableItemBackground"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:paddingVertical="12dp"
+                android:text="@string/decending"
+                android:textColor="#E2E4E9"
+                android:textSize="14sp"
+                app:backgroundColorView="#00000000"
+                app:cornerRadius="16dp" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</layout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:id="@+id/layoutRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00FFFFFF">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rootContainer"
+            android:layout_width="@dimen/_142sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_dialog_sort"
+            android:paddingHorizontal="12dp">
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvSortAZ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/done"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/signika_semi_bold"
+                android:includeFontPadding="false"
+                android:paddingVertical="12dp"
+                android:text="@string/a_z"
+                android:textColor="#E2E4E9"
+                android:textSize="14sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintTop_toTopOf="parent" />
+            <View
+                android:id="@+id/viewBBottomAz"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="2dp"
+                android:background="#51596C"
+                app:layout_constraintTop_toBottomOf="@+id/tvSortAZ" />
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/signika_regular"
+                android:includeFontPadding="false"
+                android:paddingVertical="12dp"
+                android:text="@string/date"
+                android:textColor="#E2E4E9"
+                android:textSize="14sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintTop_toBottomOf="@id/viewBBottomAz" />
+            <View
+                android:id="@+id/viewBBottomDate"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="2dp"
+                android:background="#51596C"
+                app:layout_constraintTop_toBottomOf="@+id/tvDate" />
+            <com.example.appa.ui.customview.RippleCornerTextView
+                android:id="@+id/tvSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/signika_regular"
+                android:includeFontPadding="false"
+                android:paddingVertical="12dp"
+                android:text="@string/size"
+                android:textColor="#E2E4E9"
+                android:textSize="14sp"
+                app:backgroundColorView="#00000000"
+                app:layout_constraintTop_toBottomOf="@id/viewBBottomDate" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+
+</layout>

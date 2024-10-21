@@ -1,0 +1,934 @@
+[
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_main.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_im_my_sound_no_data.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/im_my_sound_no_data.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_im_record.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/im_record.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_hiphop_sound.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_hiphop_sound.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_font_background.otf.flat",
+        "source": "com.example.appa.app-main-76:/font/font_background.otf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_guide.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_guide.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_multi_lang.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_multi_lang.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_acoustic_sound.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_acoustic_sound.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_grid_audio.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_grid_audio.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_english.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_english.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_inter_semibold.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/inter_semibold.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_privacy_policy.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_privacy_policy.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_back.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_back.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_img_guide_3.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/img_guide_3.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_create_new_sound.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_create_new_sound.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_language_selected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_language_selected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_rate.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_rate.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_segoe_ui_semibold.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/segoe_ui_semibold.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_ringtone_unselected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_ringtone_unselected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_inter_medium.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/inter_medium.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_fragment_ringtones.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/fragment_ringtones.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_img_guide_2.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/img_guide_2.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_hindi.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_hindi.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_electronic_sound.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_electronic_sound.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_change_name.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_change_name.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_favorite_selected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_favorite_selected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_edit_my_sound.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_edit_my_sound.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_empty.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/empty.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_fast_forward15s.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_fast_forward15s.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_im_background_ring.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/im_background_ring.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_error_loading_image.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_error_loading_image.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-hdpi_img_search_nodata.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-hdpi/img_search_nodata.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_split_from_video.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_split_from_video.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_option_category.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_category.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_manrope_extra_bold.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/manrope_extra_bold.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_portuguese.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_portuguese.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_close.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_close.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_option_all_record.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_all_record.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_recent.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_recent.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_segoe_ui_bold.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/segoe_ui_bold.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_video_linear.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_video_linear.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_im_ic_app.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/im_ic_app.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_im_audio_device.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/im_audio_device.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_recording.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_recording.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_favorite_unselected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_favorite_unselected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/anim_rotation.xml.flat",
+        "source": "com.example.appa.app-main-76:/anim/rotation.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_img_guide_5.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/img_guide_5.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_history_search.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_history_search.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_add_selected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_add_selected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_custom_bottom_navigation.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/custom_bottom_navigation.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_permission_setting.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_permission_setting.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_denied_media_video.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_denied_media_video.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_iback.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/iback.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_recent_act.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_recent_act.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_select_audio_file.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_select_audio_file.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_ascending.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_ascending.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_setting_unselected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_setting_unselected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_signika_regular.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/signika_regular.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_cursor_color.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/cursor_color.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.appa.app-main-76:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_pause.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_pause.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_recordinge.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_recordinge.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_inter_regular.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/inter_regular.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_add_to_favorite.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_add_to_favorite.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_audio.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_audio.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_manrope_semi_bold.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/manrope_semi_bold.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_category.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_category.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_piano_sound.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_piano_sound.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_thumb_seekbar.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_thumb_seekbar.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_paytone_one_regular.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/paytone_one_regular.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_switch_off.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_switch_off.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_im_background.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/im_background.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_language_unselected.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_language_unselected.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_icon_next_edit.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/icon_next_edit.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/raw_downloading.json.flat",
+        "source": "com.example.appa.app-main-76:/raw/downloading.json"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_option_search.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_search.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_audio_unselect.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_audio_unselect.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_signika_medium.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/signika_medium.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-hdpi_ic_audio_grid.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-hdpi/ic_audio_grid.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/xml_backup_rules.xml.flat",
+        "source": "com.example.appa.app-main-76:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_arrow_right.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_arrow_right.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_my_sounds.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_my_sounds.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_icon_previous_edit.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/icon_previous_edit.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_play_recording.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_play_recording.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_im_set_back.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/im_set_back.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_rock_sound.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_rock_sound.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_background_favorite.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/background_favorite.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/raw_splash.json.flat",
+        "source": "com.example.appa.app-main-76:/raw/splash.json"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_spanish.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_spanish.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_intro.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_beatboxer.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/beatboxer.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_fragment_setting.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_recent.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_recent.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_im_favorite_nodata.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/im_favorite_nodata.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_sort.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_sort.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_cate.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_cate.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_edit_recording.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_edit_recording.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_option_my_sound.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_my_sound.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_fragment_favorite.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/fragment_favorite.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/raw_loading.json.flat",
+        "source": "com.example.appa.app-main-76:/raw/loading.json"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_dialog_ringtone.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_dialog_ringtone.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_add_to_my_sound.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_add_to_my_sound.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_gradient_focus_drawable.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/gradient_focus_drawable.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_search.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_signika_semi_bold.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/signika_semi_bold.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_icon_trim_audio.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/icon_trim_audio.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_loading_image.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_loading_image.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_img_guide_4.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/img_guide_4.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_option_favorite.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_favorite.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_fragment_my_sound.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/fragment_my_sound.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_signika_bold.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/signika_bold.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_option_recent.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_option_recent.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_download.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_download.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_denied_media_audio.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_denied_media_audio.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_rating_1.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_rating_1.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_my_sound_selected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_my_sound_selected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_segoe_ui.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/segoe_ui.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_intro_2.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_intro_2.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_dialog_loading.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_dialog_loading.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_add.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_add.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_intro_1.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_intro_1.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_beat_sound.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_beat_sound.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_video.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_video.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_edit.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_edit.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_manrope_bold.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/manrope_bold.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_im_edit.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/im_edit.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_signika_light.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/signika_light.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_set_message.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_set_message.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_manrope_light.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/manrope_light.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_rating_2.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_rating_2.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/anim_scale_down.xml.flat",
+        "source": "com.example.appa.app-main-76:/anim/scale_down.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_splash.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_track_seekbar.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_track_seekbar.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_set_ringtone.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_set_ringtone.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_intro_3.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_intro_3.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_filled.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/filled.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_inter_bold.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/inter_bold.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_recording.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_recording.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_rating_3.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_rating_3.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_more.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_more.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_custom_ripple_item7.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/custom_ripple_item7.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_categories.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_categories.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_language_options.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_language_options.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_manrope_regular.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/manrope_regular.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_custom_ripple_item_12dp.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/custom_ripple_item_12dp.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_dialog_option_all_record.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_dialog_option_all_record.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_language_notselected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_language_notselected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_rewind15s.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_rewind15s.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_switch.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_switch.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_language_selected.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_language_selected.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_delete.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_delete.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_edit_text.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_edit_text.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_segoe_ui_italic.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/segoe_ui_italic.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_permission.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_permission.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_linear.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_linear.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_ringtone_selected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_ringtone_selected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_multi_lang.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_multi_lang.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_custom_background.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/custom_background.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_pop_sound.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_pop_sound.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_custom_ripple_image.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/custom_ripple_image.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_category_detail.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_category_detail.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_icon_pause_edit.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/icon_pause_edit.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_my_sound_unselected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_my_sound_unselected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_done.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/done.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_guide_line.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_guide_line.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_dialog_rate.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_dialog_rate.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_search.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_search.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_record.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_record.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_denied_external_storage.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_denied_external_storage.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_vietnam.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_vietnam.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_change_name_my_sound.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_change_name_my_sound.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_custom_ripple.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/custom_ripple.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_switch_on.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_switch_on.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_down.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_down.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_denied_write_setting.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_denied_write_setting.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_activity_permission.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/activity_permission.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_favorites_selected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_favorites_selected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_im_add.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/im_add.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_dialog_loading.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/dialog_loading.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_classic_sound.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_classic_sound.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_dialog_radius_10dp.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_dialog_radius_10dp.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_dance_sound.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_dance_sound.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xhdpi_ic_setting_selected.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xhdpi/ic_setting_selected.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_img_rating_default.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/img_rating_default.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_rating_5.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_rating_5.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_audio.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_audio.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_more_horizontal.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_more_horizontal.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_permission_video.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_permission_video.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_share_app.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_share_app.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_background_rate.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/background_rate.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_grid.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_grid.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_ballad_sound.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_ballad_sound.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/color_custom_color_bottom_nav.xml.flat",
+        "source": "com.example.appa.app-main-76:/color/custom_color_bottom_nav.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_change_name.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_change_name.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_choose_video.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_choose_video.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_im_rate_default.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/im_rate_default.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_audio_select.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_audio_select.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_img_guide_1.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/img_guide_1.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_set_notification.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_set_notification.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_dialog_sort.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_dialog_sort.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/anim_scale_up.xml.flat",
+        "source": "com.example.appa.app-main-76:/anim/scale_up.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_search_white.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_search_white.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_search.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_search.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_manrope_medium.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/manrope_medium.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_ic_recording.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/ic_recording.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_rating_4.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_rating_4.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxhdpi_background_main.jpg.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxhdpi/background_main.jpg"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_play.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_play.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_img_french.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/img_french.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_im_no_data_favorite.webp.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/im_no_data_favorite.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_favorites.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_favorites.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_bg_permission_audio.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/bg_permission_audio.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_custom_bottom_nav.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/custom_bottom_nav.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/layout_item_intro.xml.flat",
+        "source": "com.example.appa.app-main-76:/layout/item_intro.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_rate_us.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_rate_us.png"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable_custom_ripple_item.xml.flat",
+        "source": "com.example.appa.app-main-76:/drawable/custom_ripple_item.xml"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_manrope_extra_light.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/manrope_extra_light.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/font_segoe_ui_bold_italic.ttf.flat",
+        "source": "com.example.appa.app-main-76:/font/segoe_ui_bold_italic.ttf"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.appa.app-main-76:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.appa.app-merged_res-74:/drawable-xxxhdpi_ic_chevron_right.png.flat",
+        "source": "com.example.appa.app-main-76:/drawable-xxxhdpi/ic_chevron_right.png"
+    }
+]

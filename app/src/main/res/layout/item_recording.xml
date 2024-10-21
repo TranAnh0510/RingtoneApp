@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+
+        <ImageView
+            android:id="@+id/imRingTone"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/im_audio_device"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNameRecording"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:ellipsize="end"
+            android:fontFamily="@font/signika_semi_bold"
+            android:maxLines="1"
+            android:paddingEnd="5dp"
+            android:textColor="#F6F8F8"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvDateAndCapacity"
+            app:layout_constraintLeft_toRightOf="@+id/imRingTone"
+            app:layout_constraintRight_toLeftOf="@+id/imMore"
+            app:layout_constraintTop_toTopOf="@+id/imRingTone"
+            tools:text="Cheri Cheri Lady Cheri Cheri Lady Cheri Cheri Lady" />
+
+        <TextView
+            android:id="@+id/tvDateAndCapacity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/signika_light"
+            android:maxLines="1"
+            android:paddingEnd="5dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imRingTone"
+            app:layout_constraintLeft_toLeftOf="@+id/tvNameRecording"
+            app:layout_constraintRight_toLeftOf="@+id/imMore"
+            app:layout_constraintTop_toBottomOf="@+id/tvNameRecording"
+            tools:text="Cheri Cheri Lady Cheri Cheri Lady" />
+
+        <ImageView
+            android:id="@+id/imMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_more"
+            app:layout_constraintBottom_toBottomOf="@id/imRingTone"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imRingTone" />
+
+        <TextView
+            android:id="@+id/tvTimeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/signika_light"
+            android:text="00:00:00"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@id/seekBar"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tvTimeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/signika_light"
+            android:text="01:54:21"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@id/seekBar"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar"
+            tools:ignore="SmallSp" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:progressDrawable="@drawable/bg_track_seekbar"
+            android:splitTrack="true"
+            android:thumb="@drawable/bg_thumb_seekbar"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imRingTone" />
+
+        <ImageView
+            android:id="@+id/imRewind15s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_ripple_image"
+            android:padding="10dp"
+            android:src="@drawable/ic_rewind15s"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/imPlay"
+            app:layout_constraintEnd_toStartOf="@+id/imPlay"
+            app:layout_constraintStart_toEndOf="@+id/tvTimeStart"
+            app:layout_constraintTop_toTopOf="@+id/imPlay" />
+
+        <ImageView
+            android:id="@+id/imPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_ripple_image"
+            android:padding="3dp"
+            android:src="@drawable/ic_play_recording"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTimeStart" />
+
+        <ImageView
+            android:id="@+id/imFastForward15s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_ripple_image"
+            android:padding="10dp"
+            android:src="@drawable/ic_fast_forward15s"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/imPlay"
+            app:layout_constraintEnd_toStartOf="@+id/tvTimeEnd"
+            app:layout_constraintStart_toEndOf="@+id/imPlay"
+            app:layout_constraintTop_toTopOf="@+id/imPlay" />
+
+        <TextView
+            android:id="@+id/tvLineUnSelect"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#252E32"
+            android:fontFamily="@font/signika_light"
+            android:layout_marginTop="@dimen/_12sdp"
+            app:layout_constraintTop_toBottomOf="@+id/imRingTone" />
+        <TextView
+            android:id="@+id/tvLineSelect"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:visibility="gone"
+            android:fontFamily="@font/signika_light"
+            android:background="#252E32"
+            android:layout_marginTop="@dimen/_12sdp"
+            app:layout_constraintTop_toBottomOf="@+id/imPlay" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

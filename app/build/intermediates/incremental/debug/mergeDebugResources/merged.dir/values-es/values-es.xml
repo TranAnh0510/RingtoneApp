@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificación nueva</item>
+    <item quantity="other">%d notificaciones nuevas</item>
+  </plurals>
+    <string name="_120_sound">120 sonido</string>
+    <string name="a_z">A-Z</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hecho"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="acoustic_music">Música Acústica</string>
+    <string name="add">Agregar</string>
+    <string name="add_to_my_favorites">Añadir a Mis favoritos</string>
+    <string name="add_to_my_sounds">Añadir a Mis Sonidos</string>
+    <string name="all_audio">Todos los audios</string>
+    <string name="all_recordings">Todas las grabaciones</string>
+    <string name="all_video">Todos los vídeos</string>
+    <string name="app_name">Aplicación de tono de llamada</string>
+    <string name="ascending">Ascendente</string>
+    <string name="audios">Audios</string>
+    <string name="ballad">Balada</string>
+    <string name="ballad_music">Música balada</string>
+    <string name="bass">Bajo</string>
+    <string name="beat">Derrotar</string>
+    <string name="beatboxer">beatboxer</string>
+    <string name="bottomsheet_action_collapse">Ocultar la hoja inferior</string>
+    <string name="bottomsheet_action_expand">Mostrar la hoja inferior</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="bottomsheet_drag_handle_clicked">Controlador de arrastre tocado dos veces</string>
+    <string name="bottomsheet_drag_handle_content_description">Controlador de arrastre</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Responder"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Rechazar"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Colgar"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Llamada entrante"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Llamada en curso"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filtrando una llamada entrante"</string>
+    <string name="can_not_found_record_audio_application">La aplicación de grabación no se encuentra en su dispositivo. Descargue la aplicación de grabación de la tienda de aplicaciones.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="categories">Categorías</string>
+    <string name="change_name">Cambiar nombre</string>
+    <string name="change_name_recording">Cambiar nombre de grabación</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="character_name">No utilice caracteres especiales para nombrar.</string>
+    <string name="classical_music">Música clásica</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string msgid="406453423630273620" name="close_drawer">"Cerrar menú de navegación"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Cerrar hoja"</string>
+    <string name="confirm">Confirmar</string>
+    <string name="content_create">Seleccione la pista que desea convertir en tono de llamada, luego especifique el área para cortar y personalizar como desee.</string>
+    <string name="content_cut">Utilice herramientas de corte, ajuste el volumen y agregue efectos para crear secuencias de sonido únicas.</string>
+    <string name="content_intro_1">Con Ringtones, la música adquiere un tono más refinado</string>
+    <string name="content_intro_2">Crea tonos de llamada personales a partir de la música que amas</string>
+    <string name="content_intro_3">Corta, edita y personaliza fácilmente para crear tonos de llamada especiales</string>
+    <string name="content_rate_1_2_3">Por favor danos tu opinión</string>
+    <string name="content_rate_4_5">Gracias por tus comentarios </string>
+    <string name="content_rate_default">Cuéntanos tu experiencia</string>
+    <string name="content_store">Una vez creados, puedes almacenar tus tonos de llamada en tu dispositivo o en la pestaña Mis sonidos para usarlos más adelante.</string>
+    <string name="content_support">Si tiene algún problema o tiene preguntas, consulte la ayuda o contáctenos para obtener ayuda.</string>
+    <string name="content_welcome">La aplicación Ringtone Maker está diseñada para simplificar el proceso de creación y personalización de tonos de llamada a tu gusto. Aquí hay algunas pautas importantes:</string>
+    <string name="create_ringtones_from_existing_tracks">Crea tonos de llamada a partir de pistas existentes:</string>
+    <string name="cut_and_edit_audio">Cortar y editar audio:</string>
+    <string name="dance">Bailar</string>
+    <string name="dance_music">Música de baile</string>
+    <string name="date">Fecha</string>
+    <string name="decending">Descendente</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Entrada no válida"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Ventana emergente"</string>
+    <string name="delete">Borrar</string>
+    <string name="delete_from_my_favorites">Eliminar de Mis favoritos</string>
+    <string name="denied_external_storage">\"Ringtone Maker\" necesita el permiso de escritura en almacenamiento externo para funcionar correctamente</string>
+    <string name="denied_media_audio">\"Ringtone Maker\" necesita el permiso de lectura de audio multimedia para funcionar correctamente</string>
+    <string name="denied_media_video">\"Ringtone Maker\" necesita el permiso Leer vídeo multimedia para funcionar correctamente</string>
+    <string name="denied_write_setting">\"Ringtone Maker\" necesita el permiso de configuración de escritura para funcionar correctamente</string>
+    <string name="do_you_like_the_app">¿Te gusta la aplicación?</string>
+    <string name="done">Hecho</string>
+    <string name="downloading_please_wait">Descargando, por favor espere...</string>
+    <string name="dreamers">Soñadores</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Menú desplegable"</string>
+    <string name="edit">Editar</string>
+    <string name="edit_recording">Editar grabación</string>
+    <string name="electronic_music">Música Electrónica</string>
+    <string name="enable_permission">Habilitar permiso</string>
+    <string name="error_edit">Se produjo un error al editar el tono de llamada. Por favor inténtalo de nuevo.</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exit">Salida</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="funn">Divertido</string>
+    <string name="get_start">Empezar</string>
+    <string name="get_started">Empezar</string>
+    <string name="go">Ir</string>
+    <string name="go_to_setting">Ir a configuración</string>
+    <string name="guidelines">Pautas</string>
+    <string name="happy">Feliz</string>
+    <string name="hiphop">hip-hop</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string msgid="6827826412747255547" name="in_progress">"En curso"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Marcado parcialmente"</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="language">Idioma</string>
+    <string name="language_options">Opciones de idioma</string>
+    <string msgid="4657191930956702614" name="lb_control_display_fast_forward_multiplier">"%1$dx"</string>
+    <string msgid="4597148235912710942" name="lb_control_display_rewind_multiplier">"%1$dx"</string>
+    <string msgid="893619591225519922" name="lb_guidedaction_continue_title">"Continuar"</string>
+    <string msgid="3330958750346333890" name="lb_guidedaction_finish_title">"Finalizar"</string>
+    <string msgid="3228326776757666747" name="lb_media_player_error">"Código de error de MediaPlayer %1$d extra %2$d"</string>
+    <string msgid="8084428500709675515" name="lb_navigation_menu_contentDescription">"Menú de navegación"</string>
+    <string msgid="2394451791544864917" name="lb_onboarding_accessibility_next">"Siguiente"</string>
+    <string msgid="5549711907371161292" name="lb_onboarding_get_started">"EMPEZAR"</string>
+    <string msgid="8691966842977635128" name="lb_playback_controls_closed_captioning_disable">"Inhabilitar subtítulos"</string>
+    <string msgid="2346334170216706076" name="lb_playback_controls_closed_captioning_enable">"Habilitar subtítulos"</string>
+    <string msgid="740570111678243493" name="lb_playback_controls_fast_forward">"Avanzar rápidamente"</string>
+    <string msgid="5734614175721471329" name="lb_playback_controls_fast_forward_multiplier">"Avanzar rápidamente %1$dx"</string>
+    <string msgid="5859666950961624736" name="lb_playback_controls_hidden">"Controles multimedia ocultos (pulsa la cruceta para mostrarlos)"</string>
+    <string msgid="1209119371486219736" name="lb_playback_controls_high_quality_disable">"Inhabilitar alta calidad"</string>
+    <string msgid="3057698527166674705" name="lb_playback_controls_high_quality_enable">"Habilitar alta calidad"</string>
+    <string msgid="8730341244454469032" name="lb_playback_controls_more_actions">"Más acciones"</string>
+    <string msgid="917331776961802657" name="lb_playback_controls_pause">"Pausar"</string>
+    <string msgid="5770668162543767702" name="lb_playback_controls_picture_in_picture">"Activar modo imagen en imagen"</string>
+    <string msgid="7088090604803481121" name="lb_playback_controls_play">"Reproducir"</string>
+    <string msgid="8429099206716245199" name="lb_playback_controls_repeat_all">"Repetir todo"</string>
+    <string msgid="1614290959784265209" name="lb_playback_controls_repeat_none">"No repetir"</string>
+    <string msgid="676658705837320560" name="lb_playback_controls_repeat_one">"Repetir uno"</string>
+    <string msgid="2866333981131020771" name="lb_playback_controls_rewind">"Rebobinar"</string>
+    <string msgid="6038956370475252734" name="lb_playback_controls_rewind_multiplier">"Rebobinar %1$dx"</string>
+    <string msgid="8690223891515602822" name="lb_playback_controls_shown">"Controles multimedia mostrados"</string>
+    <string msgid="6793109999253893369" name="lb_playback_controls_shuffle_disable">"Inhabilitar reproducir aleatoriamente"</string>
+    <string msgid="5151681938752704485" name="lb_playback_controls_shuffle_enable">"Habilitar reproducir aleatoriamente"</string>
+    <string msgid="8117512422682146745" name="lb_playback_controls_skip_next">"Saltar siguiente"</string>
+    <string msgid="3481218248309447059" name="lb_playback_controls_skip_previous">"Saltar anterior"</string>
+    <string msgid="3544533410444618518" name="lb_playback_controls_thumb_down">"No seleccionar No me gusta"</string>
+    <string msgid="8475278766138652105" name="lb_playback_controls_thumb_down_outline">"Seleccionar No me gusta"</string>
+    <string msgid="3458671378107738666" name="lb_playback_controls_thumb_up">"No seleccionar Me gusta"</string>
+    <string msgid="1385865732502550659" name="lb_playback_controls_thumb_up_outline">"Seleccionar Me gusta"</string>
+    <string msgid="1471121602610716654" name="lb_playback_time_separator">"/"</string>
+    <string msgid="5700349211583074131" name="lb_search_bar_hint">"Haz una búsqueda"</string>
+    <string msgid="5926531297066387462" name="lb_search_bar_hint_speech">"Habla para buscar"</string>
+    <string msgid="4826526877249029043" name="lb_search_bar_hint_with_title">"Busca <ns1:g id="SEARCH_CONTEXT">%1$s</ns1:g>"</string>
+    <string msgid="6032250334706920550" name="lb_search_bar_hint_with_title_speech">"Habla para buscar <ns1:g id="SEARCH_CONTEXT">%1$s</ns1:g>"</string>
+    <string name="let_us_know_your_experience">Cuéntanos tu experiencia</string>
+    <string name="lofi_sound">Sonido Lofi</string>
+    <string name="love">Amar</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_24h_suffix">%1$s horas</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="more">Más</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_range_selection">Selección de fecha de inicio: %1$s – Selección de fecha de finalización: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">ninguna</string>
+    <string name="mtrl_picker_cancel">Cancelar</string>
+    <string name="mtrl_picker_confirm">Aceptar</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_end_date_description">Fecha de finalización: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Ir al año actual, %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$d</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_start_date_description">Fecha de inicio: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_today_description">Hoy, %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para cambiar a la vista de calendario</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para cambiar a la vista de año</string>
+    <string name="mtrl_timepicker_cancel">Cancelar</string>
+    <string name="mtrl_timepicker_confirm">Aceptar</string>
+    <string name="my_favorite">Favorito</string>
+    <string name="my_favorites">Mis favoritos</string>
+    <string name="my_sounds">mi sonido</string>
+    <string name="name_empty">Ingrese un nombre para el tono de llamada recién editado.</string>
+    <string name="name_specific">Los nombres de los tonos de llamada no pueden contener caracteres especiales. Por favor vuelva a ingresar.</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Menú de navegación"</string>
+    <string name="new_name">Nuevo nombre</string>
+    <string name="new_record">Nuevo récord</string>
+    <string name="next">Próximo</string>
+    <string name="no_data">Sin datos</string>
+    <string name="no_data_memory">\"Ringtone Maker\" necesita el permiso de lectura de audio multimedia para funcionar correctamente</string>
+    <string name="no_favorites">No tienes ninguna canción favorita.</string>
+    <string name="no_my_sound">No tienes ninguna canción en mi sonido.</string>
+    <string name="no_video_memory">\"Ringtone Maker\" necesita el permiso Leer vídeo multimedia para funcionar correctamente</string>
+    <string msgid="6610465462668679431" name="not_selected">"No seleccionado"</string>
+    <string msgid="875452955155264703" name="off">"Desactivado"</string>
+    <string msgid="8655164131929253426" name="on">"Activado"</string>
+    <string msgid="1301877238242752863" name="orb_search_action">"Buscar acción"</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string name="permission">Permiso</string>
+    <string name="permission_content">\"Ringtone Maker\" necesita los siguientes permisos para funcionar correctamente</string>
+    <string name="piano_music">Música de piano</string>
+    <string name="please_enter_name_sound">Por favor ingrese el sonido del nombre.</string>
+    <string name="please_feedback">Por favor comentarios</string>
+    <string name="pop_music">Música pop</string>
+    <string name="pop_sound">sonido pop</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string msgid="5941395253238309765" name="range_end">"Fin del intervalo"</string>
+    <string msgid="7097486360902471446" name="range_start">"Inicio del intervalo"</string>
+    <string name="rate">Tasa</string>
+    <string name="rate_us">Califícanos</string>
+    <string name="recent_play">Música reciente</string>
+    <string name="recommended_for_you">Recomendado para ti</string>
+    <string name="record">Registro</string>
+    <string name="result_not_found">Resultado no encontrado</string>
+    <string name="ringtone_music">Tono musical</string>
+    <string name="ringtones">Tono de llamada</string>
+    <string name="rock">Roca</string>
+    <string name="rock_music">Música rock</string>
+    <string name="rock_sound">Sonido de roca</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string name="search_ringtones">Buscar tonos de llamada…</string>
+    <string name="see_all">Ver todo</string>
+    <string name="select_audio_file">Seleccionar archivo de audio</string>
+    <string msgid="6043586758067023" name="selected">"Seleccionado"</string>
+    <string name="set_as_alarm_sound">Establecer como sonido de alarma</string>
+    <string name="set_as_message_sound">Establecer como sonido de mensaje</string>
+    <string name="set_as_notification_sound">Establecer como sonido de notificación</string>
+    <string name="set_as_ringtone">Establecer como sonido de tono de llamada</string>
+    <string name="set_the_alarm">Has configurado correctamente la alarma.</string>
+    <string name="set_the_notification">Has configurado correctamente la notificación.</string>
+    <string name="set_the_ringtone">Has configurado correctamente el tono de llamada.</string>
+    <string name="setting">Configuración</string>
+    <string name="share_app">Compartir aplicación</string>
+    <string name="size">Tamaño</string>
+    <string name="skip">Saltar</string>
+    <string name="sorry_we_couldn_t_find_any_results">Lo sentimos, no pudimos encontrar ningún resultado.</string>
+    <string name="sound">Sonido</string>
+    <string name="sounds">sonidos</string>
+    <string name="split_from_video">Dividido del vídeo</string>
+    <string name="start">Comenzar</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="store">Almacenar:</string>
+    <string name="support_and_assistance">Soporte y asistencia:</string>
+    <string msgid="2561197295334830845" name="switch_role">"Interruptor"</string>
+    <string msgid="1672349317127674378" name="tab">"Pestaña"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> por cien."</string>
+    <string name="thank_you">Gracias por calificar la aplicación.</string>
+    <string name="thank_you_guide">¡Gracias por utilizar Ringtone Maker y esperamos que tengas una gran experiencia creando tus propios tonos de llamada únicos!</string>
+    <string name="the_yellow_area_will_be_removed">El área amarilla será eliminada.</string>
+    <string name="this_action_can_contain_ads">Esta acción puede contener anuncios.</string>
+    <string name="title_intro_1">Canciones de tonos de llamada</string>
+    <string name="title_intro_2">Canciones de tonos de llamada</string>
+    <string name="title_rate_1">¡Oh, no!</string>
+    <string name="title_rate_2">¡Pobre!</string>
+    <string name="title_rate_3">¡Bien!</string>
+    <string name="title_rate_4">¡Excelente!</string>
+    <string name="title_rate_5">¡Nosotros también te amamos!</string>
+    <string name="title_rate_default">¿Te gusta la aplicación?</string>
+    <string name="total">Total</string>
+    <string name="videos">Vídeos</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="welcome_to_ringtone_tutorial">¡Bienvenido al tutorial de tonos de llamada!</string>
+    <string name="write_external_storage">Escribir almacenamiento externo</string>
+    <string name="write_media_audio">Escribir audio multimedia</string>
+    <string name="write_media_video">Escribir vídeo multimedia</string>
+    <string name="write_setting">Configuración de escritura</string>
+</resources>

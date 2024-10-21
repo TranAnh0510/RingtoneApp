@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/im_ic_app"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppA">
+        <activity
+            android:name=".ui.activity.main.ringtones.ringtonemore.video.VideoAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.ringtones.ringtonemore.record.RecordAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dialog.DialogOptionCategory"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.ringtones.ringtonemore.audio.AudioAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.mysound.edit.EditMySoundAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dialog.DialogChangeNameMySound"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dialog.DialogOptionMySound"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dialog.DialogOptionSearch"
+            android:exported="false" />
+        <activity
+            android:name=".ui.guideline.GuideLineAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.ringtones.category.CategoryAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.search.SearchAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.ringtones.recent.RecentAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dialog.DialogOptionRecent"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dialog.DialogLoading"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.setting.SettingFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.mysound.MySoundFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.favorite.FavoriteFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.ringtones.RingtonesFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dialog.DialogDeniedWriteSetting"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dialog.DialogDeniedMediaAudio"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dialog.DialogDeniedMediaVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dialog.DialogDeniedExternalStorage"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.permission.PermissionAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.intro.IntroAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.multilang.MultiLangAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
